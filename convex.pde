@@ -28,7 +28,7 @@ void draw() {
   float angle = atan2(lensHeight / 2, lensFocus * 2);
   float radius = sqrt(lensHeight * lensHeight / 4 + lensFocus * lensFocus * 4);
   ellipseMode(CENTER);
-  fill(#C0C0FF, 80);
+  fill(216, 216, 255, 80);
   arc(totWidth / 2 - lensFocus * 2, totHeight / 2, radius * 2, radius * 2, -angle, angle, OPEN);
   arc(totWidth / 2 + lensFocus * 2, totHeight / 2, radius * 2, radius * 2, PI - angle, PI + angle, OPEN);
   // The focals
